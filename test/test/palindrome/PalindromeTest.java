@@ -93,7 +93,7 @@ public class PalindromeTest {
                 .Build();
 
         // QUAND on vérifie si c'est un palindrome
-        String resultat =  vérification.Verifier(chaine,23);
+        String resultat =  vérification.Verifier(chaine,8);
 
         // ALORS toute réponse est précédée de <salutations> dans cette <langue>
         String[] lines = resultat.split(System.lineSeparator());
@@ -105,7 +105,7 @@ public class PalindromeTest {
     public void testAuRevoir(String chaine){
         // ETANT DONNE une chaine
         // QUAND on vérifie si c'est un palindrome
-        String resultat =  VerificationPalindromeBuilder.Default().Verifier(chaine,12);
+        String resultat =  VerificationPalindromeBuilder.Default().Verifier(chaine,20);
 
         // ALORS toute réponse est suivie de "Au Revoir"
         String[] lines = resultat.split(System.lineSeparator());

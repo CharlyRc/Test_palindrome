@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23af0731-eb46-41b6-8ab3-98c56c8b8c51" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/palindrome/Expressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/palindrome/Horaire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/palindrome/LangueAnglaise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/palindrome/LangueFrancaise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/palindrome/LangueInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/palindrome/VerificationPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test/palindrome/PalindromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test/palindrome/utilities/LangueStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test/palindrome/utilities/VerificationPalindromeBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="23af0731-eb46-41b6-8ab3-98c56c8b8c51" name="Changes" comment="horaire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test palindrome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test palindrome.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/palindrome/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/palindrome/PalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/palindrome/utilities/LangueStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/palindrome/utilities/LangueStub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +51,17 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "init",
     "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "C:/Users/ricou/OneDrive/Documents/EPSI-B3/Tests Sandre Enzo/Test palindrome",
+    "last_opened_file_path": "C:/Users/ricou/OneDrive/Documents/EPSI-B3/Tests_Sandre_Enzo/Test palindrome",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/ricou/OneDrive/Documents/EPSI B3/Tests Sandre Enzo/Test palindrome/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,7 +73,7 @@
       <recent name="test.palindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeTest.testMiroir">
+  <component name="RunManager" selected="JUnit.PalindromeTest">
     <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test palindrome" />
       <extension name="coverage">
@@ -94,6 +85,38 @@
       <option name="PACKAGE_NAME" value="test.palindrome" />
       <option name="MAIN_CLASS_NAME" value="test.palindrome.PalindromeTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeTest.testAuRevoir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test palindrome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.palindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.palindrome" />
+      <option name="MAIN_CLASS_NAME" value="test.palindrome.PalindromeTest" />
+      <option name="METHOD_NAME" value="testAuRevoir(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeTest.testBonjourFrancais" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test palindrome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.palindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.palindrome" />
+      <option name="MAIN_CLASS_NAME" value="test.palindrome.PalindromeTest" />
+      <option name="METHOD_NAME" value="testBonjourFrancais(java.lang.String,test.palindrome.LangueInterface,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,8 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PalindromeTest.testMiroir" />
         <item itemvalue="JUnit.PalindromeTest" />
+        <item itemvalue="JUnit.PalindromeTest.testAuRevoir" />
+        <item itemvalue="JUnit.PalindromeTest.testBonjourFrancais" />
+        <item itemvalue="JUnit.PalindromeTest.testMiroir" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +157,9 @@
       <workItem from="1701855227381" duration="13986000" />
       <workItem from="1701879436930" duration="3362000" />
       <workItem from="1701937146298" duration="3238000" />
-      <workItem from="1701949709014" duration="5122000" />
+      <workItem from="1701949709014" duration="6898000" />
+      <workItem from="1702023180898" duration="4195000" />
+      <workItem from="1704736105233" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -142,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701855340409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="horaire">
+      <option name="closed" value="true" />
+      <created>1701959795481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701959795481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="horaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="horaire" />
   </component>
 </project>
